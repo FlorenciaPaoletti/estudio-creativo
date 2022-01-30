@@ -443,19 +443,18 @@ hr {
     font-size: 20px;
 }
 
-.argumento {
+/* Bootstrap Main */
+
+.contenedorTarjetas {
     max-width: 1200px;
     padding: 20px;
     padding-bottom: 40px;
-    margin-left: 390px;
+    margin: auto;
     margin-top: -40px;
-}
-
-
-.video {
-    width: 400px;
-    height: 300px;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}    
 
 /* Portfolio */
 
