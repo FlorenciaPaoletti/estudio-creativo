@@ -78,10 +78,12 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+/* Contenido principal */
+
 .cover {
     width: 100%;
     padding-bottom: 60px;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .container__cover {
@@ -341,112 +343,30 @@ hr {
     color: white;
 }
 
-/* Servicios Flex */
-.grillaPadre {
-    height: 1000px;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-areas: "titulo titulo" "contenedor contenedor" "argumento video";
+
+/* Seccion Servicios Bootstrap */
+
+.accordion-button:not(.collapsed) {
+        color: rgb(136, 75, 136);
+        background-color: rgba(197, 171, 197, 0.356);
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    }
+
+    
+
+/* Servicios Main Bootstrap */
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(136, 75, 136);
+    border-color: rgb(136, 75, 136);
 }
 
-.titulo {
-    grid-area: titulo;
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(136, 75, 136);
+    border-color: rgb(136, 75, 136);
 }
-
-.contenedorMain {
-    grid-area: contenedor;
-}
-
-.argumento {
-    grid-area: argumento;
-}
-
-.video {
-    grid-area: video;
-}
-
-.titulo {
-    margin: auto;
-    display: block;
-    max-width: 1200px;
-    padding: 20px;
-    text-align: center;
-}
-
-.titulo h2 {
-    color: rgb(136, 75, 136);
-    text-align: center;
-    font-size: 37px;
-    display: block;
-    margin-left: 0px;
-    font-weight: bold;
-} 
-.emprende img {
-    width: 300px;
-    height: 300px;
-}
-
-.empresa img {
-    width: 300px;
-    height: 300px;
-}
-
-.profes img {
-    width: 300px;
-    height: 248px;
-}
-
-.contenedorMain {
-    max-width: 1200px;
-    padding: 20px;
-    padding-bottom: 40px;
-    margin-left: 390px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.contenedorMain .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-}
-
-.emprende {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    width: 400px;
-    height: 400px;
-
-}
-
-.empresa {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    width: 400px;
-    height: 400px;
-}
-
-.profes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    width: 400px;
-    height: 400px;
-}
-
-.contenedorMain p {
-    font-size: 20px;
-}
-
-
 
 /* Portfolio */
 
@@ -545,9 +465,12 @@ main{
 }
 
 
+/* Seccion Contacto */
+
 .body__contact {
     background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
 }
+
 
 .formularioContacto {
     background-color: white;
